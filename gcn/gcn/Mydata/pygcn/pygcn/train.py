@@ -97,6 +97,7 @@ def test():
 
 # Train model
 t_total = time.time()
+train_accuracy = []
 for epoch in range(args.epochs):
     train(epoch)
 print("Optimization Finished!")
